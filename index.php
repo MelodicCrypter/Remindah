@@ -7,6 +7,6 @@
     <title>Remindah - TEST FILE</title>
 </head>
 <body>
-    <?php echo"Test Page" . "Test"; ?>
+    <?php echo"This project is about Remindah. A simple reminder tool."; ?>
 </body>
 </html>

@@ -7,6 +7,6 @@
     <title>Remindah - TEST FILE</title>
 </head>
 <body>
-    <?php echo"Test Page"; ?>
+    <?php echo"Test Page" . "Okay." ; ?>
 </body>
 </html>

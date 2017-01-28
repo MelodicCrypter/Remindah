@@ -12,9 +12,15 @@ git checkout file                                           (file modified but y
 git reset HEAD file                                         (unstaging, ignoring "added" files then add the new modified one)
 git rm file                                                 (deletes file and put to staging automatically, ready for commit)
 
-//Branch
+// Branch
 git checkout hash                                           (this will let you restore a specific log, you can also save it as master if you like)
 git checkout -b newBranchName hash                          (this will let you create a new branch)
 git branch                                                  (lists all branches)
 git checkout master                                         (if you want to return to master, you can also use this to choose a specific branch name)
 git branch newBranchname hash                               (after returning to master, you can create a new branch from the specific log you loaded seconds ago)
+git branch newBranchname                                    (creating a fresh branch)
+git branch -m oldName newName                               (changing a branch name to something else)
+git branch -D branchName                                    (deleting a specific branch)
+
+// Merge
+git merge branchName                                        (merging branch to master, this code applies if you are already inside master)

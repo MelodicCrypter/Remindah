@@ -1,6 +1,7 @@
 git status
 git add .
 git add -A
+git add --all                                           (handles all deletions, modifications and automatically moves to staging)
 git commit -m ""
 git push
 git pull
@@ -9,3 +10,4 @@ git config --global user.email "user@email.com"          (setting the committer 
 git config --global user.name "your name"                (setting the committer name)
 git checkout file                                        (file modified but you want to ignore the change, so undo)
 git reset HEAD file                                      (unstaging, ignoring "added" files then add the new modified one)
+git rm file                                              (delete file and put to staging automatically, ready for commit)

@@ -24,3 +24,6 @@ git branch -D branchName                                    (deleting a specific
 
 // Merge
 git merge branchName                                        (merging branch to master, this code applies if you are already inside master)
+
+// gitIgnore files
+.file                                                       (starts with . then name of file, )

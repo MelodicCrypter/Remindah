@@ -1,1 +1,1 @@
-# Remindah is just reminder for Git and Terminal syntaxes.
+# Remindah is just a reminder for Git and Terminal syntaxes.

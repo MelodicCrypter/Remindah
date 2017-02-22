@@ -3,3 +3,4 @@ cd name                 selects a directory
 cd -                    goes back one level
 cd ~/name               goes to a directory wherever you are
 cd../                   goes back one level
+cd Name\ Name           use backslash when there is a space in a directory name

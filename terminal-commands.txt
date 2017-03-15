@@ -1,4 +1,5 @@
 ls                                  lists the directories
+ls -al                              shows everything including hidden files
 cd name                             selects a directory
 cd -                                goes back one level
 cd ~/name                           goes to a directory wherever you are

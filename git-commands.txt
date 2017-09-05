@@ -1,4 +1,5 @@
 git status
+git diff file                                               (see the changes of the file)
 git add .
 git add -A
 git add --all                                               (handles all deletions, modifications and automatically moves to staging)

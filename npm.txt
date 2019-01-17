@@ -1,0 +1,16 @@
+NOTE: * just replace the <text> including the arrows with real data
+      * assuming that you have already installed node on your machine
+
+npm init                            (will initialize npm inside your project)
+npm init -y                         (will automatically initialize skipping the configuration questions)
+
+npm i <packageName>                 (will install the specific package)
+npm i <packageName> -g              (will install the specific package, globally)
+npm i <packageName> -S              (will install the specific package as Dependecy for your project, meaning your project won't run fully without it)
+npm i <packageName> -D              (will install the specific package as Dev Dependency for your project, meaning it will not be deployed to production)
+
+npm un <packageName>                (will UNinstall the specific package)
+npm up <packageName>                (will update the specific package)
+npm run <scriptName>                (will run specific command in the script inside your package.json file)
+npm ls                              (will list all installed packages)
+npm la                              (will print additional information while listing all the packages)

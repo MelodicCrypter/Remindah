@@ -1,5 +1,3 @@
-ls                                  lists the directories
-ls -al                              shows everything including hidden files
 cd name                             selects a directory
 cd -                                goes back one level
 cd ~/name                           goes to a directory wherever you are
@@ -8,6 +6,8 @@ cd /                                goes to the root
 cd ..                               will go the directory above you are currently in
 cd Name\ Name                       use backslash when there is a space in a directory name
 cd the press Tab                    automatically fills in the complete name of the directory
+ls                                  lists the directories
+ls -al                              shows everything including hidden files
 mv oldDirectory newDirectory        moves a directory to a new directory, good for manually moving hidden files as well
 mv * newDirectory                   moves all files but not including hidden files
 rm -rf directoryName                removes a directory

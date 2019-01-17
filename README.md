@@ -1,1 +1,1 @@
-# **Remindah** is just a cheat sheet for Git and Terminal syntaxes.
+# **Remindah** is just a cheat sheet for common Git and Terminal commands. 💻 🎹 😎

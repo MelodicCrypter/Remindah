@@ -1,27 +1,28 @@
 NOTE: * just replace the <text> including the arrows with real data
       * follow the step inside a bracket [ ]
 
-mkdir <directoryName>               creates a new directory
+mkdir <directoryName>                     creates a new directory
+mkdir -p <directoryName/subDirName>       creates a directory recursively. Eg., mkdir -p main/sub/test
 
-cd <name>                           selects and opens a directory
-cd -                                goes back one level
-cd ~/<name>                         goes to  directory wherever you are
-cd../                               goes back one level
-cd /                                goes to the root
-cd ..                               will go the directory above you are currently in
-cd <Name>\ <Name>                   use backslash when there is a space in a directory name
-cd [the press Tab]                  automatically fills in the complete name of the directory
+cd <name>                                 selects and opens a directory
+cd -                                      goes back one level
+cd ~/<name>                               goes to  directory wherever you are
+cd../                                     goes back one level
+cd /                                      goes to the root
+cd ..                                     will go the directory above you are currently in
+cd <Name>\ <Name>                         use backslash when there is a space in a directory name
+cd [the press Tab]                        automatically fills in the complete name of the directory
 
-ls                                  lists the directories
-ls -a                               shows everything including hidden files
-ls -l                               lists all contents in long format
-ls -t                               lists all contents according by the time they were modified
+ls                                        lists the directories
+ls -a                                     shows everything including hidden files
+ls -l                                     lists all contents in long format
+ls -t                                     lists all contents according by the time they were modified
 
-mv <oldDirectory newDirectory>      moves a directory to a new directory, good for manually moving hidden files as well
-mv * <newDirectory>                 moves all files but not including hidden files
+mv <oldDirectory newDirectory>            moves a directory to a new directory, good for manually moving hidden files as well
+mv * <newDirectory>                       moves all files but not including hidden files
 
-rm -rf <directoryName>              removes a directory
+rm -rf <directoryName>                    removes a directory
 
-nano <file>                         edits the text file
-pwd                                 prints the name of the working directory
-touch <file>                        creates a new file
+nano <file>                               edits the text file
+pwd                                       prints the name of the working directory
+touch <file>                              creates a new file

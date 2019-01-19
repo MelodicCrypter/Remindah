@@ -17,6 +17,7 @@ git config --global user.name "your name"                   (setting the committ
 git checkout <file>                                         (file modified but you want to ignore the change, so undo)
 git reset HEAD <file>                                       (unstaging, ignoring "added" files then add the new modified one)
 git rm <file>                                               (deletes file and put to staging automatically, ready for commit)
+git cherry-pick <commit-hash>                               (This will grab a commit from a different branch and applies it to the current branch)
 
 // Branch
 git checkout hash                                           (this will let you restore a specific log, you can also save it as master if you like)

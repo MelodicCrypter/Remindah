@@ -54,4 +54,4 @@ git merge -s ours <branchName>                              (if in case there is
 git merge -s theirs <branchName>                            (if in case there is a conflict and you want to use/select their branch)
 
 // gitIgnore files
-.file                                                       (starts with . then name of file)
+.file                                                       (starts with . then name of file )

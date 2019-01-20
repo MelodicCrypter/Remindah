@@ -54,5 +54,8 @@ git config rerere.enabled true                              (can be a solution :
 git merge -s ours <branchName>                              (if in case there is a conflict and you want to use/select your branch)
 git merge -s theirs <branchName>                            (if in case there is a conflict and you want to use/select their branch)
 
+// List
+git ls-tree --full-tree -r HEAD                             (will list all the content within the current directory)
+
 // gitIgnore files
 .file                                                       (starts with . then name of file )

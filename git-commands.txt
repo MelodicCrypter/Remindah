@@ -9,6 +9,7 @@ git diff --stat                                             (still, it will show
 git add .                                                   (add ALL the files to be committed)
 git add -A                                                  (handles all deletions, modifications and automatically moves to staging)
 git add --all                                               (handles all deletions, modifications and automatically moves to staging)
+git commit -am "message here"                               (a short hand for adding or staging files then also immediately committing the files)
 git commit -m "message here"                                (committing or preparing the changes you made, with -m you are able to put a message)
 git commit --amend                                          (this will allow you to change the commit message from your previous commits)
 git push                                                    (pushes all changes, meaning everything will overwritten with the new changes)

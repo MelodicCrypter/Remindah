@@ -57,6 +57,9 @@ git merge -s theirs <branchName>                            (if in case there is
 // List
 git ls-tree --full-tree -r HEAD                             (will list all the content within the current directory)
 
+// Config
+git config --list                                           (will display all settings in your git config file)
+
 // gitIgnore files
 .file                                                       (name your files starting with a . (dot), this particular pattern will ignore file or folder named target recursively)
 .directory/                                                 (name your files starting with a . (dot), this particular pattern will ignore directory (due to the trailing /) recursively)

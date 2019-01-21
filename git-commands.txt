@@ -22,6 +22,7 @@ git config --global user.name "your name"                   (setting the committ
 git checkout <file>                                         (file modified but you want to ignore the change, so undo)
 git reset HEAD <file>                                       (unstaging, ignoring "added" files then add the new modified one)
 git rm <file>                                               (deletes file and put to staging automatically, ready for commit)
+git rm -r --cached <directoryName>                          (deletes the remote directory but will not delete the local)
 git cherry-pick <commit-hash>                               (This will grab a commit from a different branch and applies it to the current branch)
 
 // Branch
@@ -56,13 +57,17 @@ git config rerere.enabled true                              (can be a solution :
 git merge -s ours <branchName>                              (if in case there is a conflict and you want to use/select your branch)
 git merge -s theirs <branchName>                            (if in case there is a conflict and you want to use/select their branch)
 
+// Initialize a Remote Repo
+git remote add origin <yourRemoteRepoURL>                   (if you have just git init a local directory and you want to initialize a repo into that local directory, use this)
+git remote -v                                               (this will verify your new remote repo URL, use this after the first command)
+
 // List
 git ls-tree --full-tree -r HEAD                             (will list all the content within the current directory)
 
 // Config
 git config --list                                           (will display all settings in your git config file)
 
-// gitIgnore files
+// gitIgnore file patterns
 .file                                                       (name your files starting with a . (dot), this particular pattern will ignore file or folder named target recursively)
 .directory/                                                 (name your files starting with a . (dot), this particular pattern will ignore directory (due to the trailing /) recursively)
 *.text                                                      (this particular pattern is a wildcard, and it will ignore every file or folder ending with 'text' recursively => e.g,   .class, .logs, .jar)

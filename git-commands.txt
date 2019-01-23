@@ -70,4 +70,4 @@ git config --list                                           (will display all se
 // gitIgnore file patterns
 .file                                                       (name your files starting with a . (dot), this particular pattern will ignore file or folder named target recursively)
 .directory/                                                 (name your files starting with a . (dot), this particular pattern will ignore directory (due to the trailing /) recursively)
-*.text                                                      (this particular pattern is a wildcard, and it will ignore every file or folder ending with 'text' recursively => e.g,   .class, .logs, .jar)
+*.text                                                      (this particular pattern is a wildcard, and it will ignore every file or folder ending with 'text' recursively => e.g,   .class, .logs, .jar, .xml)

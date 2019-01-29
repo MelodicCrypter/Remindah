@@ -6,7 +6,7 @@
 | **General Commands** | |
 | `composer list`                         | Lists available Composer commands |
 | `composer selfupdate`                   | Updates the version of Composer itself to its latest Composer version |
-| `composer global <command-name> <args>` | Allows running commands in the global composer dir. Eg., composer global require <packageName> |
+| `composer global <command-name> <args>` | Allows running commands in the global composer dir. Eg., composer global require < packageName > |
 | `composer outdated`                     | Shows a list of installed packages that have updates available, including their latest version |
 | `composer suggests`                     | Shows suggestions of packages to install |
 |<br><br><br>|

@@ -9,8 +9,9 @@
 |----------|---------------|
 |<br><br>|
 | **Making Directories** | |
-| `mkdir <directoryName>`                         | Creates a new directory |
-| `mkdir -p <directoryName/subDirName>`           | Creates a directory recursively. Eg., mkdir -p main/sub/test |
+| `mkdir <directoryName>`                                | Creates a new directory |
+| `mkdir -p <dirName>/<subDirName>`                      | Creates a directory recursively. Eg., `mkdir -p main/sub/test` |
+| `mkdir -p <dirName>/{<subDir1>,<subDir2>}/<subDir3>`   | Creates multiple directories recursively. Eg., `mkdir -p main/{sub1},{sub2}/test` will create both directories: `main/sub1/test` & `main/sub2/test` |
 |<br><br><br>|
 | **Changing Directories** | |
 | `cd <name>`                               | Selects and opens the directory you typed |
@@ -39,4 +40,3 @@
 | `nano <fileName>`     | edits with a text file inside command line |
 | `pwd`                 | prints the name of the working or current directory |
 | `touch <fileNme>`     | creates a new file |
-

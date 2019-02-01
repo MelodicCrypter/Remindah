@@ -8,5 +8,4 @@ Remindah is a cheatsheet for common:
 - **Composer** <br>
 - **Terminal** <br>
 
-commands with some information on what the command does.
-This repo will be updated constantly.
+commands with some detailed information on what the command does. This repository will be updated constantly.

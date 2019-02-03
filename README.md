@@ -1,5 +1,9 @@
 # **Remindah**  💻 😎
 
+
+[![Remindah](https://img.shields.io/github/last-commit/MelodicCrypter/Remindah.svg?style=flat)](#)
+[![Remindah](https://img.shields.io/github/contributors/MelodicCrypter/Remindah.svg?style=flat-square)](#)
+
 Remindah is a cheatsheet for common:
 <br>
 - **Git** <br>

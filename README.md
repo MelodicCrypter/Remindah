@@ -11,5 +11,6 @@ Remindah is a cheatsheet for common:
 - **NPM** <br>
 - **Composer** <br>
 - **Terminal** <br>
+- **PostgreSQL** <br>
 
 commands with some detailed information on what the command does. This repository will be updated constantly.

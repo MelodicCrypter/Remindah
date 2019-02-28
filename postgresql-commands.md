@@ -1,3 +1,7 @@
+###### NOTE:
+###### * just replace the < text > including the arrows with real data
+<br>
+
 # PostgreSQL
 
 | <ins>Commands</ins> | <ins>Descriptions</ins> |

@@ -18,5 +18,9 @@
 | **Generators** | |
 | `rails g scaffold <Resource> <field:type>` | Creates a scaffold for a resource. Scaffold creates the model, database migration for the model, controller, view, and test suite of the resource. Eg. `rails g scaffold Blog title:string body:text` |
 |<br /><br /><br />|
+| **Credentials** | |
+| `rails credentials:edit` | Edit credentials |
+| `rails credentials:show` | Show credentials |
+|<br /><br /><br />|
 | **Etc** | |
 | `rails routes` | List all defined routes |

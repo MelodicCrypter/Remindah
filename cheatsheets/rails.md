@@ -25,4 +25,6 @@
 | `rails credentials:show` | Show credentials |
 |<br /><br /><br />|
 | **Etc** | |
-| `rails routes` | List all defined routes |
+| `rails c`           | This command lets you interact with your Rails application from the command line |
+| `rails c --sandbox` | The `--sandbox` will allow you to test out some code without changing any data. Any modifications you make will be rolled back on exit. |
+| `rails routes`      | List all defined routes |

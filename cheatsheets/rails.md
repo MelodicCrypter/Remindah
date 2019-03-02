@@ -10,6 +10,7 @@
 |<br /><br /><br />|
 | **Database** | |
 | `rails db:migrate` | Migrate the database |
+| `rails db:setup`   | Creates the database, load the schema and initialize it with the seed data. |
 |<br /><br /><br />|
 | **Server** | |
 | `rails s`           | Starts up Rails application |
@@ -19,6 +20,7 @@
 | `rails g scaffold [Resource] [field:type]`  | Creates a scaffold for a resource. Scaffold creates the model, database migration for the model, controller, view, and test suite of the resource. <br />Eg. `rails g scaffold Blog title:string body:text` |
 | `rails g controller [Name] [action action]` | Creates a controller with actions specified. <br />Eg. `rails g controller Pages home about contact` |
 | `rails g model [Name] [field:type]`         | Creates a model with migration. <br />Eg. `rails g model Skill title:string percent:integer` |
+| `rails g resource [Resource] [field:type]`  | Similar to scaffolds, but a skinnier version of it. It doesn't include the actions in controller, no views being created, etc <br />Eg. `rails g resource Portfolio title:string body:text` |
 |<br /><br /><br />|
 | **Credentials** | |
 | `rails credentials:edit` | Edit credentials |

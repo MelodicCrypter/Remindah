@@ -17,13 +17,14 @@
 | `rails s -p [port]` | Starts up Rails application with specified port. <br />Eg. `rails s -p 5000` |
 |<br /><br /><br />|
 | **Generators** | |
-| `rails g scaffold [Resource] [field:type]`           | Creates a scaffold for a resource. Scaffold creates the model, database migration for the model, controller, view, and test suite of the resource. <br />Eg. `rails g scaffold Blog title:string body:text` |
-| `rails g controller [Name] [action action]`               | Creates a controller with actions specified. <br />Eg. `rails g controller Pages home about contact` |
-| `rails g model [Name] [field:type]`                       | Creates a model with migration. <br />Eg. `rails g model Skill title:string percent:integer` |
-| `rails g resource [Resource] [field:type]`                | Similar to scaffolds, but a skinnier version of it. It doesn't include the actions in controller, no views being created, etc <br />Eg. `rails g resource Portfolio title:string body:text` |
-| `rails g migration Create[Table] [field:type]`            | Generates a migration with the [Table] name. <br />Eg. `rails g migration CreateUsers name:string age:integer` will create a table `users` with `name` & `age` column. |
-| `rails g migration Add[Field]To[Table] [field:type]`      | Generates a migration that adds a field to the table. <br />Eg. `rails g migration AddAddressToUsers address:text` will create a migration that adds the `address` column to the `users` table. |
-| `rails g migration Remove[Field]From[Table] [field:type]` | Generates a migration that removes a field from the table. <br />Eg. `rails g migration RemoveAddressFromUsers address:text` will create a migration that removes the `address` column from the `users` table. |
+| `rails g scaffold [Resource] [field:type]`                      | Creates a scaffold for a resource. Scaffold creates the model, database migration for the model, controller, view, and test suite of the resource. <br />Eg. `rails g scaffold Blog title:string body:text` |
+| `rails g controller [Name] [action action]`                     | Creates a controller with actions specified. <br />Eg. `rails g controller Pages home about contact` |
+| `rails g model [Name] [field:type]`                             | Creates a model with migration. <br />Eg. `rails g model Skill title:string percent:integer` |
+| `rails g resource [Resource] [field:type]`                      | Similar to scaffolds, but a skinnier version of it. It doesn't include the actions in controller, no views being created, etc <br />Eg. `rails g resource Portfolio title:string body:text` |
+| `rails g migration Create[Table] [field:type]`                  | Generates a migration with the [Table] name. <br />Eg. `rails g migration CreateUsers name:string age:integer` will create a table `users` with `name` & `age` column. |
+| `rails g migration Add[Field]To[Table] [field:type]`            | Generates a migration that adds a field to the table. <br />Eg. `rails g migration AddAddressToUsers address:text` will create a migration that adds the `address` column to the `users` table. |
+| `rails g migration Remove[Field]From[Table] [field:type]`       | Generates a migration that removes a field from the table. <br />Eg. `rails g migration RemoveAddressFromUsers address:text` will create a migration that removes the `address` column from the `users` table. |
+| `rails g migration Add[Column]RefTo[Table] [column]:references` | Generates a migration that adds a reference to the table for the specified column. <br />Eg. `rails g migration AddCategoryRefToBlogs category:references` will create a migration that adds a reference to the `blogs` table for `category` |
 |<br /><br /><br />|
 | **Credentials** | |
 | `rails credentials:edit` | Edit credentials |

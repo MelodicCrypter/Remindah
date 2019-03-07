@@ -1,6 +1,7 @@
 # Rails
 
 >Note: Replace <...> with the expected value stated inside the angle bracket.
+><br>Eg., For `rails s -p <port>`, it will be `rails s -p 3001`
 
 | <ins>Commands</ins> | <ins>Descriptions</ins> |
 | --- | --- |

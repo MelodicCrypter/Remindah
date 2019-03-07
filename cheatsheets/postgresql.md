@@ -1,11 +1,9 @@
-###### NOTE:
-###### * just replace the < text > including the arrows with real data
-<br>
-
 # PostgreSQL
 
+>NOTE: just replace the <text> including the arrows with real data
+
 | <ins>Commands</ins> | <ins>Descriptions</ins> |
-| - | - |
+| --- | --- |
 | <br /><br /> |
 | **Meta-Commands** |
 | `\l`                     | Show list of database |

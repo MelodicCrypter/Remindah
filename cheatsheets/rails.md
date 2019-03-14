@@ -1,3 +1,8 @@
+---
+path: "/rails"
+title: "Ruby on Rails"
+---
+
 # Rails
 
 >Note: Replace <...> with the expected value stated inside the angle bracket.

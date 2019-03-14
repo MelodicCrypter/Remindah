@@ -1,3 +1,8 @@
+---
+path: "/yarn"
+title: "Yarn"
+---
+
 # Yarn
 
 >NOTE: just replace the < text > including the arrows with real data assuming that you have already installed Node and Yarn on your machine

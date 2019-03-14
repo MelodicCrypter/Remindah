@@ -1,3 +1,8 @@
+---
+path: "/postgresql"
+title: "PostgreSQL"
+---
+
 # PostgreSQL
 
 >NOTE: just replace the <text> including the arrows with real data

@@ -1,3 +1,8 @@
+---
+path: "/terminal"
+title: "Terminal"
+---
+
 # Terminal
 
 >NOTE: just replace the < text > including the arrows with real data follow the step inside a bracket [ ]

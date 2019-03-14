@@ -1,3 +1,8 @@
+---
+path: "/git"
+title: "Git"
+---
+
 # Git
 
 >Note: Just replace the <text> including the arrows with real data

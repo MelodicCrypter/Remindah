@@ -1,3 +1,8 @@
+---
+path: "/composer"
+title: "Composer"
+---
+
 # Composer
 
 >NOTE: Replace <...> with the expected value stated inside the angle bracket.

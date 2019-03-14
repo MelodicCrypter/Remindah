@@ -1,3 +1,8 @@
+---
+path: "/npm"
+title: "NPM"
+---
+
 # NPM
 
 >NOTE: just replace the < text > including the arrows with real data assuming that you have already installed Node on your machine

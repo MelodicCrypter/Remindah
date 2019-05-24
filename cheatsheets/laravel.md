@@ -29,3 +29,8 @@ title: "Laravel"
 | `php artisan up`                                     | Disables maintenance mode. |
 | **Storage** |
 | `php artisan storage:link` | Create a symbolic link from "public/storage" to "storage/app/public". It is used to store user-generated files, such as profile avatars, that should be publicly accessible. |
+| **Controller Generators** |
+| `php artisan make:controller <ControllerName>`               | Create a controller class. <br /> `php artisan make:controller BlogController` |
+| `php artisan make:controller <ControllerName> -r`            | Generates a resource controller class. <br /> `php artisan make:controller BlogController -r` |
+| `php artisan make:controller <ControllerName> -r -m=<Model>` | Generates a resource controller class route model binding. <br /> `php artisan make:controller BlogController -r -m=Blog` |
+| `php artisan make:controller <ControllerName> --api`         | Generates a API resource controller class that excludes the `create` and `edit` methods. <br /> `php artisan make:controller BlogController --api` |

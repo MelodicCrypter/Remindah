@@ -20,8 +20,6 @@ title: "Laravel"
 | `php artisan key:generate` | Sets the application key. |
 | **Development** |
 | `php artisan serve` | Serve the application on the PHP development server. |
-| **Configuration** |
-| `php artisan config:cache` | This will combine all of the configuration options for your application into a single file which will be loaded quickly by the framework. This should be part of your production deployment routine. |
 | **Maintenance Mode** |
 | `php artisan down`                                   | Enables maintenance mode. |
 | `php artisan down --message="<maintenance_message>"` | Enables maintenance mode with message. <br />Eg., `php artisan down --message="Upgrading Database"` |
@@ -34,3 +32,6 @@ title: "Laravel"
 | `php artisan make:controller <ControllerName> -r`            | Generates a resource controller class. <br /> `php artisan make:controller BlogController -r` |
 | `php artisan make:controller <ControllerName> -r -m=<Model>` | Generates a resource controller class route model binding. <br /> `php artisan make:controller BlogController -r -m=Blog` |
 | `php artisan make:controller <ControllerName> --api`         | Generates a API resource controller class that excludes the `create` and `edit` methods. <br /> `php artisan make:controller BlogController --api` |
+| **Production Optimization** |
+| `php artisan config:cache` | This will combine all of the configuration options for your application into a single file which will be loaded quickly by the framework. This should be part of your production deployment routine. |
+| `php artisan route:cache`  | Create a route cache file for faster route registration. |

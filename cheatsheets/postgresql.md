@@ -11,7 +11,8 @@ title: "PostgreSQL"
 | --- | --- |
 | <br /><br /> |
 | **Meta-Commands** |
-| `\l`            | Show list of database |
-| `\c <database>` | Connects to a database |
-| `\dt`           | Show list of tables |
-| `\x <value>`    | Sets or toggles expanded table formatting mode. Value is is either, `on`, `off`, or `auto` |
+| `\l`              | Show list of database |
+| `\c <database>`   | Connects to a database |
+| `\dt`             | Show list of tables |
+| `\d <table name>` | Describe table. <br />Eg. `\d users` |
+| `\x <value>`      | Sets or toggles expanded table formatting mode. The value is either, `on`, `off`, or `auto` |

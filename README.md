@@ -4,6 +4,8 @@
 ![Remindah](https://img.shields.io/github/last-commit/MelodicCrypter/Remindah.svg?style=flat)
 ![Remindah](https://img.shields.io/github/contributors/MelodicCrypter/Remindah.svg?style=flat-square)
 
+[Remindah Site](https://remindah.gq/)
+
 Remindah is a cheatsheet for common:
 
 - **Git**
